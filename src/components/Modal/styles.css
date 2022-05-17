@@ -1,0 +1,159 @@
+.modal {
+  background: rgba(0, 0, 0, 0.8);
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow-y: hidden;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #484848;
+}
+
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.modal-header h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 43px;
+  color: #000000;
+}
+.modal-header img {
+  cursor: pointer;
+}
+.modal-header-buttons {
+  margin-bottom: 40px;
+}
+
+.modal-content {
+  position: absolute;
+  background: #ffffff;
+  border-radius: 20px;
+  width: 611px;
+  height: 879px;
+  padding: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.modal-body {
+  height: 730px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.hight-100 {
+  height: 100%;
+}
+.modal-inputs-user {
+  height: 570px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin-top: 50px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 570px;
+}
+form label {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+}
+form input,
+form select {
+  width: 485px;
+}
+
+select {
+  border: 1px solid #555555;
+  box-sizing: border-box;
+  border-radius: 5px;
+  width: 449px;
+  height: 63px;
+  padding: 22px 24px;
+
+  appearance: none;
+  background: url("../../assets/iconDropDown.svg") 96% / 15% no-repeat;
+  background-size: 16px 10px;
+}
+
+[type="date"]::-webkit-inner-spin-button {
+  display: none;
+}
+[type="date"]::-webkit-calendar-picker-indicator {
+  display: none;
+}
+
+#modal-valor {
+  appearance: none;
+}
+
+[type="number"]::-webkit-inner-spin-button {
+  display: none;
+}
+.modal-header-buttons {
+  display: flex;
+}
+
+.modal-header-buttons button {
+  width: 254px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+#out-btn {
+  border-radius: 0px 10px 10px 0px;
+}
+
+#in-btn {
+  border-radius: 10px 0px 0px 10px;
+}
+
+#confirmar {
+  width: 236px;
+  height: 46px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  background: #7978d9;
+  border-radius: 5px;
+  margin-top: 43px;
+}
+
+#confirmar:hover {
+  background: hsl(241, 56%, 72%);
+}
+
+.error {
+  margin-left: 5px;
+}

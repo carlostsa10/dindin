@@ -1,0 +1,23 @@
+input {
+  border: 1px solid #555555;
+  box-sizing: border-box;
+  border-radius: 5px;
+  width: 449px;
+  height: 63px;
+  padding: 22px 24px;
+}
+
+label {
+  display: block;
+  align-self: start;
+  margin-bottom: 8px;
+  color: #484848;
+}
+
+input,
+label {
+  font-family: "Rubik";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+}

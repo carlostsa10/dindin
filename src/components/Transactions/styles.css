@@ -1,0 +1,111 @@
+td {
+  border: none;
+  border-bottom: 1px solid #e0e0e0;
+  padding-left: 15px;
+  height: 60px;
+  text-align: center;
+  font-family: "Lato";
+}
+
+.data-column {
+  font-style: normal;
+  font-weight: 700;
+  color: #000000;
+}
+
+.moneyIn {
+  color: #7b61ff;
+  font-weight: 700;
+}
+
+.moneyOut {
+  color: #fa8c10;
+  font-weight: 700;
+}
+
+.position-relative {
+  position: relative;
+}
+
+.img-position {
+  position: absolute;
+  right: 0;
+  top: 18px;
+}
+
+td img {
+  cursor: pointer;
+}
+
+.delete-transaction {
+  position: fixed;
+  margin-top: 10px;
+  margin-left: -89px;
+  width: 111px;
+  height: 46px;
+  background: #e4f2fd;
+  border-radius: 4px;
+
+  z-index: 1;
+}
+
+.icon-seta-delete {
+  margin-top: 5px;
+  position: absolute;
+  bottom: 44px;
+  right: 3px;
+}
+
+.transactions-delete-buttons {
+  width: 81px;
+  height: 15px;
+  color: #ffffff;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 9px;
+  line-height: 11px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+}
+
+.transactions-delete-buttons button {
+  width: 37px;
+  height: 15px;
+  border-radius: 4px;
+  color: #ffffff;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 9px;
+  line-height: 11px;
+}
+.delete-transaction {
+  padding: 7px 15px;
+}
+.delete-transaction h4 {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 10px;
+  line-height: 12px;
+  color: #000000;
+  margin-bottom: 4px;
+}
+
+.color-blue-delete {
+  background-color: #3a9ff1;
+}
+.color-red-delete {
+  background-color: #ff576b;
+}
+
+.modal-delete {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+}

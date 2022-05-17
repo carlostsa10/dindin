@@ -1,0 +1,130 @@
+.page-login-container {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  align-items: center;
+  justify-content: space-around;
+  background-image: url("../../assets/background.png");
+  background-size: cover;
+  padding-left: 100px;
+  padding-right: 122px;
+}
+
+.form-login {
+  padding: 60px 32px;
+  width: 513px;
+  height: 535px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 301px;
+}
+
+.form-login h2 {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 33px;
+
+  color: #7978d9;
+}
+
+.page-login-container h1 {
+  font-family: "Rubik";
+  font-weight: 700;
+  font-size: 52px;
+  line-height: 62px;
+  color: #ffffff;
+}
+
+.text-container {
+  width: 614px;
+  height: 449px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.text-container p {
+  font-family: "Rubik";
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 33px;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+}
+
+.page-login-container strong {
+  color: #7978d9;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.page-login-container a {
+  text-decoration: none;
+  display: flex;
+  width: 284px;
+  color: #ffffff;
+  justify-content: center;
+  align-items: center;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  margin-top: 45px;
+}
+.form-login button {
+  width: 449px;
+  margin-top: 17px;
+}
+.form-login button,
+.page-login-container a {
+  height: 49px;
+  background-color: #7978d9;
+  border-radius: 5px;
+}
+.form-login button:hover,
+.page-login-container a:hover {
+  background-color: hsl(241, 56%, 72%);
+}
+
+.input-container input {
+  width: 449px;
+}
+
+.input-container label {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+
+  color: #484848;
+}
+
+.error-container {
+  width: 100%;
+  height: 25px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #ff3399;
+  margin-left: 2px;
+  text-align: center;
+}

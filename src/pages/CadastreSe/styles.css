@@ -1,0 +1,61 @@
+.form-cadastre-se {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 100%;
+  padding: 60px 32px;
+}
+
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 513px;
+  height: 781px;
+  background-color: #ffffff;
+}
+
+.form-cadastre-se h1 {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 33px;
+  color: #7978d9;
+}
+
+.form-container button {
+  text-align: center;
+  width: 449px;
+  height: 49px;
+  background-color: #7978d9;
+  border-radius: 5px;
+}
+.form-container button:hover {
+  background-color: hsl(241, 56%, 72%);
+}
+
+.form-container a {
+  text-decoration: none;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #7b61ff;
+}
+
+.form-cadastre-se input {
+  width: 449px;
+}
+
+.form-cadastre-se label {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+
+  color: #484848;
+}

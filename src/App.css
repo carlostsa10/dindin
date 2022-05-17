@@ -1,0 +1,21 @@
+.container {
+  height: 100vh;
+  width: 100vw;
+}
+
+.container-background-picture {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("./assets/background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.logo {
+  position: absolute;
+  top: 41px;
+  left: 100px;
+}
